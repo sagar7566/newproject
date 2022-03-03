@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'MAVEN_PATH'
-        jdk 'jdk8'
+        maven 'MavenNexus'
+        jdk 'Maven1'
     }
     stages {
         stage("Tools initialization") {
